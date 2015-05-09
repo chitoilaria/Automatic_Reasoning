@@ -1,0 +1,7 @@
+begin(SOS):
+Q(a)
+P(a)|P(b)
+-P(x)|-P(f(x))|Q(f(c))
+-P(x)|P(f(x))
+-Q(f(c))|-Q(x)
+Q(f(x))|-P(x)

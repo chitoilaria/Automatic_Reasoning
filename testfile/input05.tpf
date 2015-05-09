@@ -1,0 +1,10 @@
+begin(CLAUSE):
+D(x1)
+O(a,x1)
+-D(y)|-O(x,y)|A(x)
+-A(w)|-A1(y)|-K(w,y)
+K(a,b)|K(c,b)
+C(b)
+-C(z)|A1(z)
+begin(SOS):
+-K(c,b)

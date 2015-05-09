@@ -1,0 +1,10 @@
+begin(CLAUSE):
+S(x1)|M(x1)
+-M(x2)|-L(x2,a)
+-S(x3)|L(x3,b)
+-L(c,x4)|-L(d,x4)
+L(c,x5)|L(d,x5)
+L(c,a)
+L(c,b)
+begin(SOS):
+-M(x7)|S(x7)

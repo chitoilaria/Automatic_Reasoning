@@ -1,0 +1,16 @@
+begin(CLAUSE):
+L(a)
+L(b)
+L(c)
+-K(x,y)|-R(x,y)
+-H(a,x)|-H(c,x)
+-H(x,a)|-H(x,b)|-H(x,c)
+H(a,a)
+H(a,c)
+-K(x,y)|H(x,y)
+-H(a,x)|H(b,x)
+-L(x)|R(x,a)|H(b,x)
+begin(SOS):
+K(b,a)|K(c,a)
+begin(ORDER):
+K>L>H>x>y

@@ -1,0 +1,6 @@
+begin(CLAUSE):
+-P(f(a))|-P(f(a))|Q(b)
+-P(g(b,a))|-Q(b)
+P(g(b,a))
+begin(SOS):
+P(f(a))|Q(b)

@@ -1,0 +1,9 @@
+begin(CLAUSE):
+-Q(a1,a3,x)|P(a1,x)
+-Q(a1,a4,x)|P(a1,x)
+-Q(a1,a2,x)|-R(x)|Q(a1,a3,f(a5,x))
+-Q(a1,a2,x)|-T(x)|Q(a1,a4,f(a6,x))
+R(x)|T(x)
+Q(a1,a2,a7)
+begin(SOS):
+-P(a1,x)

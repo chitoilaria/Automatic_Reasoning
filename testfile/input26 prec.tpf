@@ -1,0 +1,8 @@
+begin(SOS):
+P(a,z)
+-Q(z)|-P(z,a)
+R(a)
+-R(v)|Q(g(v))
+-P(x,g(y))|P(g(x),y)
+begin(ORDER):
+P>Q>R>g>a

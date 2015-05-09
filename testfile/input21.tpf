@@ -1,0 +1,6 @@
+begin(SOS):
+C(a)
+begin(CLAUSE):
+D(x)|-C(x)
+-C(x)|-D(x)
+-D(x)|-C(x)

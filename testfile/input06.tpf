@@ -1,0 +1,6 @@
+begin(CLAUSE):
+P(x,f(x))|-Q(g(x))
+begin(SOS):
+-P(y,f(a))|Q(g(a))
+begin(ORDER):
+P>Q>R>f>g>a>b

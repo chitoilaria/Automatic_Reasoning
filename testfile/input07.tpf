@@ -1,0 +1,9 @@
+begin(CLAUSE):
+P(d,x,x)
+P(x,d,x)
+-P(x,y,u)|-P(y,z,v)|-P(u,z,w)|P(x,v,w)
+-P(x,y,u)|-P(y,z,v)|-P(x,v,w)|P(u,z,w)
+P(x,x,d)
+P(a,b,c)
+begin(SOS):
+-P(b,a,c)
