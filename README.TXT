@@ -1,47 +1,47 @@
 ===========================
-DESCRIZIONE DELL'ESECUZIONE
+DESCRIPTION OF IMPLEMENTATION
 ===========================
 
-- Lanciare il file JAVA TheoremProver.jar
-  presente all'interno della cartella Eseguibile
+- Run the Jar file TheoremProver.jar
+  inside the jar folder
 
-- Dal Menù, selezionare File -> Load File…
+- From Menù, select File -> Load File…
 
-- Selezionare un file di testo (*.tpf)
+- Select a text file (*.tpf)
 
 ==========================================================================================
 
-- La grammatica per i file di input, è così definita:
+- The grammar used for the input file, is as following:
 
-	SIMBOLO NOT: -;
+	NOT SYMBOL: -;
 
-	SIMBOLO OR: |;
+	OR SYMBOL: |;
 
-	COSTANTI: lettere minuscole a..e oppure i..t seguite da intero (facoltativo);
+	CONSTANTS: lowercase letters a..e or i..t followed by an integer (optional);
 
-	VARIABILI: lettere minuscole u..z seguite da intero (facoltativo);
+	VARIABLES: lowercase letters u..z followed by an integer (optional);
 
-	PREDICATI: lettere maiuscole A..Z seguite da intero (facoltativo);
+	PREDICATES: uppercase letters A..Z followed by an integer (optional);
 
-	FUNZIONI: lettere minuscole f..h seguite da intero (facoltativo);
+	FUNCTIONS: lowercase letters f..h followed by an integer (optional);
 
-- Per le precedenze, strutturare una singola linea di testo così:
+- For the order, build a single text line as follow:
 
 	Elem1 > Elem2 > Elem3 > .. > ElemN
 
-rispettando la grammatica, altrimenti non sarà possibile leggere il file.
+according to the grammar, or the program can not read the file.
 
-- Per i pesi, strutturare singole linee di testo, una per oggetto così:
+- For the weights, build a single text line, one by one for object as follow:
 
-	Elem1 , valore
-	Elem2 , valore
-	Elem3 , valore
-	Elem4 , valore
+	Elem1 , value
+	Elem2 , value
+	Elem3 , value
+	Elem4 , value
 	..
-	ElemN , valore
+	ElemN , value
 
-rispettando la grammatica, altrimenti i pesi non saranno considerati.
+according to the grammar, otherwise the weights are not considered.
 
 ==========================================================================================
 
-- Per il Javadoc, consultare il file index.html dentro la cartella Javadoc
+- To launch Javadoc, consult index.html file inside the Javadoc folder.
