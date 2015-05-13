@@ -1,6 +1,6 @@
-===========================
+=============================
 DESCRIPTION OF IMPLEMENTATION
-===========================
+=============================
 
 - Run the Jar file TheoremProver.jar
   inside the jar folder
@@ -9,7 +9,7 @@ DESCRIPTION OF IMPLEMENTATION
 
 - Select a text file (*.tpf)
 
-==========================================================================================
+========================================================================================
 
 - The grammar used for the input file, is as following:
 
@@ -42,6 +42,6 @@ according to the grammar, or the program can not read the file.
 
 according to the grammar, otherwise the weights are not considered.
 
-==========================================================================================
+========================================================================================
 
 - To launch Javadoc, consult index.html file inside the Javadoc folder.
